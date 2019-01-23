@@ -7,6 +7,7 @@ from LogisticRegression import LogisticRegression
 from MultinomialLogistic import MultinomialLogistic
 
 runner = RegressionRunner()
+runner.run(LinearRegression(), "Closed-form")
 runner.run(LinearRegression(), "Batch-update")
 runner.run(LinearRegression(), "Mini-batch")
 runner.run(LinearRegression(), "Stochastic")
